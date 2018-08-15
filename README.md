@@ -30,9 +30,14 @@ The project folders is organized as folows:
 
 ## Setup instructions:
 Clone this repo:
+
 `$  git clone https://www.github.com/danielfloripa/assessment`
 
+Go to dir:
+
 `$  cd assessment`
+
+Build the Docker:
 
 `$  docker build -t mySSC .`
 
@@ -40,3 +45,16 @@ Clone this repo:
 
 `$  docker run mySSC`
 
+## Results:
+
+Is performed the five use cases described, and the unit tests compare the results and output the message:
+
+`
+-----
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
+`
+
+For any help. please feel free to contact me
