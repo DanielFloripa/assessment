@@ -8,13 +8,13 @@ The main objective is the design and implementation of a Sorting Service Client 
 
 The project folders is organized as folows:
 
-- [x] source:
+source:
 
 - `booksorter.py` -> public interface
 
 - `sortingservice.py` -> main algorithm
 
-- [x] tests:
+tests:
 
 - `ssc_test.py` -> The unit tests performing the described test cases
 
@@ -39,11 +39,11 @@ Go to dir:
 
 Build the Docker:
 
-`$  docker build -t mySSC .`
+`$  docker build -t ssc .`
 
 ## Run command:
 
-`$  docker run mySSC`
+`$  docker run ssc`
 
 ## Results:
 
@@ -57,4 +57,4 @@ Ran 5 tests in 0.001s
 OK
 `
 
-For any help. please feel free to contact me
+
