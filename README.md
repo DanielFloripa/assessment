@@ -4,7 +4,7 @@ This repository is part of a Technical Assessment, all rights reserved to Author
 
 The main objective is the design and implementation of a Sorting Service Client (SSC).
 
-# Source code organization:
+## Source code organization:
 
 The project folders is organized as folows:
 

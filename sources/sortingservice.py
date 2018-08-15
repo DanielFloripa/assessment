@@ -2,6 +2,7 @@ from operator import itemgetter as ig
 
 
 class Sorting:
+
     @staticmethod
     def execute(book_list, scenario_rules):
         """

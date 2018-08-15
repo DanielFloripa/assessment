@@ -20,5 +20,5 @@ class BookSorter:
 
 class SortingServiceException(Exception):
         """
-        An Exception created for this case
+        An Exception created for this problem
         """
