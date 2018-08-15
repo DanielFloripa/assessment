@@ -4,31 +4,39 @@ This repository is part of a Technical Assessment, all rights reserved to Author
 
 The main objective is the design and implementation of a Sorting Service Client (SSC).
 
-# Project Folder
+# Source code organization:
 
 The project folders is organized as folows:
 
-[x] source:
-`booksorter.py` -> public interface
+- [x] source:
 
-`sortingservice.py` -> main algorithm
+- `booksorter.py` -> public interface
 
-[x] tests:
-`ssc_test.py` -> The unit tests performed
+- `sortingservice.py` -> main algorithm
 
-`config.py` -> File with configurations
+- [x] tests:
 
+- `ssc_test.py` -> The unit tests performing the described test cases
 
-## Requirements
-- Docker Python:3.6
+- `config.py` -> File with parameterized configurations
 
 
-## Installation
+## Requirements:
+
+- Docker>=18.0
+
+- Python>= 3.6
+
+
+## Setup instructions:
+Clone this repo:
 `$  git clone https://www.github.com/danielfloripa/assessment`
 
 `$  cd assessment`
 
 `$  docker build -t mySSC .`
+
+## Run command:
 
 `$  docker run mySSC`
 
